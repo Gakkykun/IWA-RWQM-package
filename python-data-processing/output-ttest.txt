@@ -1,0 +1,250 @@
+Reading BOD.csv...
+
+No significant difference between Jan data for Group 1 and Group 2.
+Jan data for Group 1 is significantly different from Group 3.
+No significant difference between Jan data for Group 2 and Group 3.
+
+No significant difference between Feb data for Group 1 and Group 2.
+Feb data for Group 1 is significantly different from Group 3.
+Feb data for Group 2 is significantly different from Group 3.
+
+No significant difference between Mar data for Group 1 and Group 2.
+No significant difference between Mar data for Group 1 and Group 3.
+No significant difference between Mar data for Group 2 and Group 3.
+
+No significant difference between Apr data for Group 1 and Group 2.
+No significant difference between Apr data for Group 1 and Group 3.
+No significant difference between Apr data for Group 2 and Group 3.
+
+No significant difference between May data for Group 1 and Group 2.
+No significant difference between May data for Group 1 and Group 3.
+No significant difference between May data for Group 2 and Group 3.
+
+No significant difference between Jun data for Group 1 and Group 2.
+No significant difference between Jun data for Group 1 and Group 3.
+No significant difference between Jun data for Group 2 and Group 3.
+
+No significant difference between Jul data for Group 1 and Group 2.
+No significant difference between Jul data for Group 1 and Group 3.
+No significant difference between Jul data for Group 2 and Group 3.
+
+No significant difference between Aug data for Group 1 and Group 2.
+No significant difference between Aug data for Group 1 and Group 3.
+No significant difference between Aug data for Group 2 and Group 3.
+
+Sep data for Group 1 is significantly different from Group 2.
+Sep data for Group 1 is significantly different from Group 3.
+No significant difference between Sep data for Group 2 and Group 3.
+
+Oct data for Group 1 is significantly different from Group 2.
+Oct data for Group 1 is significantly different from Group 3.
+No significant difference between Oct data for Group 2 and Group 3.
+
+No significant difference between Nov data for Group 1 and Group 2.
+Nov data for Group 1 is significantly different from Group 3.
+No significant difference between Nov data for Group 2 and Group 3.
+
+Dec data for Group 1 is significantly different from Group 2.
+No significant difference between Dec data for Group 1 and Group 3.
+No significant difference between Dec data for Group 2 and Group 3.
+--------------------------
+Reading DO.csv...
+
+Jan data for Group 1 is significantly different from Group 2.
+Jan data for Group 1 is significantly different from Group 3.
+No significant difference between Jan data for Group 2 and Group 3.
+
+Feb data for Group 1 is significantly different from Group 2.
+Feb data for Group 1 is significantly different from Group 3.
+No significant difference between Feb data for Group 2 and Group 3.
+
+Mar data for Group 1 is significantly different from Group 2.
+Mar data for Group 1 is significantly different from Group 3.
+No significant difference between Mar data for Group 2 and Group 3.
+
+No significant difference between Apr data for Group 1 and Group 2.
+Apr data for Group 1 is significantly different from Group 3.
+No significant difference between Apr data for Group 2 and Group 3.
+
+No significant difference between May data for Group 1 and Group 2.
+May data for Group 1 is significantly different from Group 3.
+No significant difference between May data for Group 2 and Group 3.
+
+Jun data for Group 1 is significantly different from Group 2.
+No significant difference between Jun data for Group 1 and Group 3.
+No significant difference between Jun data for Group 2 and Group 3.
+
+Jul data for Group 1 is significantly different from Group 2.
+No significant difference between Jul data for Group 1 and Group 3.
+Jul data for Group 2 is significantly different from Group 3.
+
+No significant difference between Aug data for Group 1 and Group 2.
+No significant difference between Aug data for Group 1 and Group 3.
+No significant difference between Aug data for Group 2 and Group 3.
+
+No significant difference between Sep data for Group 1 and Group 2.
+No significant difference between Sep data for Group 1 and Group 3.
+No significant difference between Sep data for Group 2 and Group 3.
+
+No significant difference between Oct data for Group 1 and Group 2.
+No significant difference between Oct data for Group 1 and Group 3.
+No significant difference between Oct data for Group 2 and Group 3.
+
+No significant difference between Nov data for Group 1 and Group 2.
+No significant difference between Nov data for Group 1 and Group 3.
+No significant difference between Nov data for Group 2 and Group 3.
+
+No significant difference between Dec data for Group 1 and Group 2.
+No significant difference between Dec data for Group 1 and Group 3.
+No significant difference between Dec data for Group 2 and Group 3.
+--------------------------
+Reading SS.csv...
+
+No significant difference between Jan data for Group 1 and Group 2.
+Jan data for Group 1 is significantly different from Group 3.
+Jan data for Group 2 is significantly different from Group 3.
+
+No significant difference between Feb data for Group 1 and Group 2.
+No significant difference between Feb data for Group 1 and Group 3.
+No significant difference between Feb data for Group 2 and Group 3.
+
+No significant difference between Mar data for Group 1 and Group 2.
+No significant difference between Mar data for Group 1 and Group 3.
+No significant difference between Mar data for Group 2 and Group 3.
+
+No significant difference between Apr data for Group 1 and Group 2.
+No significant difference between Apr data for Group 1 and Group 3.
+No significant difference between Apr data for Group 2 and Group 3.
+
+No significant difference between May data for Group 1 and Group 2.
+No significant difference between May data for Group 1 and Group 3.
+No significant difference between May data for Group 2 and Group 3.
+
+No significant difference between Jun data for Group 1 and Group 2.
+No significant difference between Jun data for Group 1 and Group 3.
+No significant difference between Jun data for Group 2 and Group 3.
+
+No significant difference between Jul data for Group 1 and Group 2.
+No significant difference between Jul data for Group 1 and Group 3.
+No significant difference between Jul data for Group 2 and Group 3.
+
+No significant difference between Aug data for Group 1 and Group 2.
+No significant difference between Aug data for Group 1 and Group 3.
+No significant difference between Aug data for Group 2 and Group 3.
+
+No significant difference between Sep data for Group 1 and Group 2.
+No significant difference between Sep data for Group 1 and Group 3.
+No significant difference between Sep data for Group 2 and Group 3.
+
+Oct data for Group 1 is significantly different from Group 2.
+No significant difference between Oct data for Group 1 and Group 3.
+No significant difference between Oct data for Group 2 and Group 3.
+
+No significant difference between Nov data for Group 1 and Group 2.
+No significant difference between Nov data for Group 1 and Group 3.
+No significant difference between Nov data for Group 2 and Group 3.
+
+No significant difference between Dec data for Group 1 and Group 2.
+No significant difference between Dec data for Group 1 and Group 3.
+No significant difference between Dec data for Group 2 and Group 3.
+--------------------------
+Reading NH4.csv...
+
+No significant difference between Jan data for Group 1 and Group 2.
+Jan data for Group 1 is significantly different from Group 3.
+No significant difference between Jan data for Group 2 and Group 3.
+
+No significant difference between Feb data for Group 1 and Group 2.
+Feb data for Group 1 is significantly different from Group 3.
+No significant difference between Feb data for Group 2 and Group 3.
+
+No significant difference between Mar data for Group 1 and Group 2.
+Mar data for Group 1 is significantly different from Group 3.
+No significant difference between Mar data for Group 2 and Group 3.
+
+No significant difference between Apr data for Group 1 and Group 2.
+No significant difference between Apr data for Group 1 and Group 3.
+No significant difference between Apr data for Group 2 and Group 3.
+
+No significant difference between May data for Group 1 and Group 2.
+May data for Group 1 is significantly different from Group 3.
+No significant difference between May data for Group 2 and Group 3.
+
+No significant difference between Jun data for Group 1 and Group 2.
+No significant difference between Jun data for Group 1 and Group 3.
+No significant difference between Jun data for Group 2 and Group 3.
+
+No significant difference between Jul data for Group 1 and Group 2.
+Jul data for Group 1 is significantly different from Group 3.
+No significant difference between Jul data for Group 2 and Group 3.
+
+No significant difference between Aug data for Group 1 and Group 2.
+Aug data for Group 1 is significantly different from Group 3.
+No significant difference between Aug data for Group 2 and Group 3.
+
+No significant difference between Sep data for Group 1 and Group 2.
+No significant difference between Sep data for Group 1 and Group 3.
+Sep data for Group 2 is significantly different from Group 3.
+
+Oct data for Group 1 is significantly different from Group 2.
+Oct data for Group 1 is significantly different from Group 3.
+No significant difference between Oct data for Group 2 and Group 3.
+
+Nov data for Group 1 is significantly different from Group 2.
+Nov data for Group 1 is significantly different from Group 3.
+No significant difference between Nov data for Group 2 and Group 3.
+
+No significant difference between Dec data for Group 1 and Group 2.
+Dec data for Group 1 is significantly different from Group 3.
+No significant difference between Dec data for Group 2 and Group 3.
+--------------------------
+Reading NOX.csv...
+
+No significant difference between Jan data for Group 1 and Group 2.
+Jan data for Group 1 is significantly different from Group 3.
+No significant difference between Jan data for Group 2 and Group 3.
+
+Feb data for Group 1 is significantly different from Group 2.
+Feb data for Group 1 is significantly different from Group 3.
+No significant difference between Feb data for Group 2 and Group 3.
+
+No significant difference between Mar data for Group 1 and Group 2.
+Mar data for Group 1 is significantly different from Group 3.
+No significant difference between Mar data for Group 2 and Group 3.
+
+No significant difference between Apr data for Group 1 and Group 2.
+Apr data for Group 1 is significantly different from Group 3.
+No significant difference between Apr data for Group 2 and Group 3.
+
+No significant difference between May data for Group 1 and Group 2.
+May data for Group 1 is significantly different from Group 3.
+May data for Group 2 is significantly different from Group 3.
+
+No significant difference between Jun data for Group 1 and Group 2.
+Jun data for Group 1 is significantly different from Group 3.
+No significant difference between Jun data for Group 2 and Group 3.
+
+No significant difference between Jul data for Group 1 and Group 2.
+Jul data for Group 1 is significantly different from Group 3.
+No significant difference between Jul data for Group 2 and Group 3.
+
+No significant difference between Aug data for Group 1 and Group 2.
+No significant difference between Aug data for Group 1 and Group 3.
+No significant difference between Aug data for Group 2 and Group 3.
+
+Sep data for Group 1 is significantly different from Group 2.
+Sep data for Group 1 is significantly different from Group 3.
+No significant difference between Sep data for Group 2 and Group 3.
+
+Oct data for Group 1 is significantly different from Group 2.
+Oct data for Group 1 is significantly different from Group 3.
+No significant difference between Oct data for Group 2 and Group 3.
+
+Nov data for Group 1 is significantly different from Group 2.
+Nov data for Group 1 is significantly different from Group 3.
+No significant difference between Nov data for Group 2 and Group 3.
+
+Dec data for Group 1 is significantly different from Group 2.
+Dec data for Group 1 is significantly different from Group 3.
+No significant difference between Dec data for Group 2 and Group 3.
+--------------------------

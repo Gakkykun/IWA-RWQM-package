@@ -1,0 +1,30 @@
+Reading BOD.csv...
+                       sum_sq     df          F        PR(>F)
+C(Month)           340.752810   11.0   9.105934  6.772223e-12
+C(Group)           163.823715    2.0  24.078227  1.300203e-09
+C(Month):C(Group)   50.577045   22.0   0.675785  8.563220e-01
+Residual           438.845833  129.0        NaN           NaN
+Reading DO.csv...
+                       sum_sq     df          F        PR(>F)
+C(Month)           144.570380   11.0   5.948029  8.828865e-08
+C(Group)           113.701765    2.0  25.729044  3.951496e-10
+C(Month):C(Group)   80.245725   22.0   1.650767  4.479233e-02
+Residual           285.038333  129.0        NaN           NaN
+Reading SS.csv...
+                         sum_sq     df         F        PR(>F)
+C(Month)            7087.659181   11.0  7.332147  1.212537e-09
+C(Group)             254.207805    2.0  1.446372  2.392149e-01
+C(Month):C(Group)   1966.658944   22.0  1.017249  4.484507e-01
+Residual           11336.230833  129.0       NaN           NaN
+Reading NH4.csv...
+                        sum_sq     df          F        PR(>F)
+C(Month)            646.068797   11.0   6.404893  2.299092e-08
+C(Group)            582.077351    2.0  31.737778  6.878493e-12
+C(Month):C(Group)   201.995325   22.0   1.001254  4.678790e-01
+Residual           1155.432902  126.0        NaN           NaN
+Reading NOX.csv...
+                       sum_sq     df          F        PR(>F)
+C(Month)           532.394226   11.0  10.809316  6.374348e-14
+C(Group)           598.037985    2.0  66.781527  1.237280e-20
+C(Month):C(Group)   64.526181   22.0   0.655045  8.749592e-01
+Residual           577.606588  129.0        NaN           NaN

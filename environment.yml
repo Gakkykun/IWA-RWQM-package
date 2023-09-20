@@ -1,0 +1,14 @@
+name: iwa-simulation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ipython
+  - jupyter
+  - jupyterlab>3
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - statsmodels
