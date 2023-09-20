@@ -28,8 +28,8 @@ Program main
                   ! XS_KU_shift90, &
                   ! ratio_G_jkc_shift10, &
                   ! ratio_G_jkc_shift50, &
-                  ratio_G_direct_shift10, &
-                  ratio_G_direct_shift50
+                  ratio_G_direct_shift1, &
+                  ratio_G_direct_shift2
     integer, parameter :: num_scenario_cases = 14
     real(real64) base_output(num_output), start(num_target_params), parameter_shift(num_target_params,num_target_params), &
             scenario_output(num_output,num_target_params), shift_list(num_scenario_cases)
@@ -101,8 +101,9 @@ Program main
 
     ! ratio_G_direct_shift10 = ratio_G_direct * shift_factor10inc
     ! ratio_G_direct_shift50 = ratio_G_direct * shift_factor50inc
-    ratio_G_direct_shift10 = 0.8d0 ! 80% prevalence
-    ratio_G_direct_shift50 = 1.0d0 ! 100% prevalence
+    ! Manual setting
+    ratio_G_direct_shift1 = 0.4d0 ! 40% prevalence
+    ratio_G_direct_shift2 = 0.6d0 ! 60% prevalence
 
 
     shift_list(:) = [&
@@ -118,8 +119,8 @@ Program main
       Ss_KU_shift10inc, &
       Ss_KU_shift50inc, &
       Ss_KU_shift100inc, &
-      ratio_G_direct_shift10, &
-      ratio_G_direct_shift50]
+      ratio_G_direct_shift1, &
+      ratio_G_direct_shift2]
 
     start(:) = [Ss_GW, SNH4_GW, SNO2_GW, SNO3_GW, SHPO4_GW, XH_GW, XN1_GW, XN2_GW, XS_GW, & 
       Ss_TG, SNH4_TG, SNO2_TG, SNO3_TG, SHPO4_TG, XH_TG, XN1_TG, XN2_TG, XS_TG, & 
