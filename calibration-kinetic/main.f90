@@ -32,6 +32,8 @@ Program main
     maxpar(:) = [5000d0, 10d0, 10d0, 10d0, 10d0]
 
 
+  ! The following code is transcribed from the C++ code of AQUASIM (Reichert, 1994)  
+
   ! Construction of initial simplex
   do j = 1, npar+1
     do i = 1, npar

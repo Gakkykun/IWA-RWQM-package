@@ -29,6 +29,7 @@ Program main
   minpar(:) = [0.025d0, 0.001d0, 3.0d0]
   maxpar(:) = [0.055d0, 0.002d0, 12.0d0]
 
+  ! The following code is transcribed from the C++ code of AQUASIM (Reichert, 1994)  
 
   ! Construction of initial simplex
   do j = 1, npar+1
