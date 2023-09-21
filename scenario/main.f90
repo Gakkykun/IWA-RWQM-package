@@ -6,8 +6,8 @@ Program main
 
     integer i, j, dataset_index    
     real(real64) Ss_TG_shift10dec, &
-                  Ss_TG_shift50dec, &
-                  Ss_TG_shift90dec, &
+                  Ss_TG_shift40dec, &
+                  Ss_TG_shift70dec, &
                   Ss_TG_shift10inc, &
                   Ss_TG_shift50inc, &
                   Ss_TG_shift100inc, &
@@ -15,8 +15,8 @@ Program main
                   ! SNH4_TB_shift50, &
                   ! SNH4_TB_shift90, &
                   Ss_KU_shift10dec, &
-                  Ss_KU_shift50dec, &
-                  Ss_KU_shift90dec, &
+                  Ss_KU_shift40dec, &
+                  Ss_KU_shift70dec, &
                   Ss_KU_shift10inc, &
                   Ss_KU_shift50inc, &
                   Ss_KU_shift100inc, &
@@ -34,7 +34,7 @@ Program main
     real(real64) base_output(num_output), start(num_target_params), parameter_shift(num_target_params,num_target_params), &
             scenario_output(num_output,num_target_params), shift_list(num_scenario_cases)
     real(real64) shift_factor10inc, shift_factor50inc, shift_factor100inc, & 
-                shift_factor10dec, shift_factor50dec, shift_factor90dec
+                shift_factor10dec, shift_factor40dec, shift_factor70dec
     real(real64) par(num_params_2)
     logical ex 
 
@@ -60,8 +60,8 @@ Program main
 
     
     shift_factor10dec = 0.9d0
-    shift_factor50dec = 0.5d0
-    shift_factor90dec = 0.1d0
+    shift_factor40dec = 0.6d0
+    shift_factor70dec = 0.3d0
 
     shift_factor10inc = 1.1d0
     shift_factor50inc = 1.5d0
@@ -69,8 +69,8 @@ Program main
     
 
     Ss_TG_shift10dec = Ss_TG * shift_factor10dec
-    Ss_TG_shift50dec = Ss_TG * shift_factor50dec
-    Ss_TG_shift90dec = Ss_TG * shift_factor90dec
+    Ss_TG_shift40dec = Ss_TG * shift_factor40dec
+    Ss_TG_shift70dec = Ss_TG * shift_factor70dec
     
     Ss_TG_shift10inc = Ss_TG * shift_factor10inc
     Ss_TG_shift50inc = Ss_TG * shift_factor50inc
@@ -81,8 +81,8 @@ Program main
     ! SNH4_TB_shift90 = SNH4_TB* shift_factor90dec
     
     Ss_KU_shift10dec = Ss_KU * shift_factor10dec
-    Ss_KU_shift50dec = Ss_KU * shift_factor50dec
-    Ss_KU_shift90dec = Ss_KU * shift_factor90dec
+    Ss_KU_shift40dec = Ss_KU * shift_factor40dec
+    Ss_KU_shift70dec = Ss_KU * shift_factor70dec
     
     Ss_KU_shift10inc = Ss_KU * shift_factor10inc
     Ss_KU_shift50inc = Ss_KU * shift_factor50inc
@@ -102,20 +102,20 @@ Program main
     ! ratio_G_direct_shift10 = ratio_G_direct * shift_factor10inc
     ! ratio_G_direct_shift50 = ratio_G_direct * shift_factor50inc
     ! Manual setting
-    ratio_G_direct_shift1 = 0.4d0 ! 40% prevalence
-    ratio_G_direct_shift2 = 0.6d0 ! 60% prevalence
+    ratio_G_direct_shift1 = 0.53d0 ! 53% prevalence (10% increment)
+    ratio_G_direct_shift2 = 0.63d0 ! 63% prevalence (20% increment)
 
 
     shift_list(:) = [&
       Ss_TG_shift10dec, &
-      Ss_TG_shift50dec, &
-      Ss_TG_shift90dec, &
+      Ss_TG_shift40dec, &
+      Ss_TG_shift70dec, &
       Ss_TG_shift10inc, &
       Ss_TG_shift50inc, &
       Ss_TG_shift100inc, &
       Ss_KU_shift10dec, &
-      Ss_KU_shift50dec, &
-      Ss_KU_shift90dec, &
+      Ss_KU_shift40dec, &
+      Ss_KU_shift70dec, &
       Ss_KU_shift10inc, &
       Ss_KU_shift50inc, &
       Ss_KU_shift100inc, &
