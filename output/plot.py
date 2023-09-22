@@ -5,6 +5,9 @@ import pandas as pd
 from IPython.core.pylabtools import figsize
 from matplotlib.offsetbox import AnchoredText
 import os, sys
+import scienceplots
+
+plt.style.use(['science', 'ieee'])
 
 # Figure Width (cm)
 figSizeXcm = 16
@@ -396,7 +399,7 @@ for i, wq in enumerate(wq_parameters):
     ax.tick_params(which='both', direction='in', length=tickLength,
                    width=lineWidth,  pad=tickPad, color=colour1)
     # ax.grid(color=colour1, linewidth=lineWidth, alpha=0.3)
-    ax.set_xlabel(r'time (month)', fontsize=fontSize, labelpad=labelPadX)
+    ax.set_xlabel(r'Time (month)', fontsize=fontSize, labelpad=labelPadX)
 
     if wq_parameters[i] == 'NOX':
         ax.set_ylabel(r'Concentration (mg-N/L)',

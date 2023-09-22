@@ -1,1 +1,5 @@
 .ipynb_checkpoints/
+
+output/output-csv/*.csv
+output/png/*.png
+output/png-compiled/*.png.

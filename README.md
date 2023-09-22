@@ -7,6 +7,7 @@ This repository contains Fortran and Python programs to replicate the work prese
 1. Clone this repository
 2. Run `conda conda env create -f environmnet.yml` 
 3. Run `conda activate iwa-simulation`
+4. Install an additional library called "SciencePlots" developed by John D. Garrett (see more details at https://github.com/garrettj403/SciencePlots), running `pip install git+https://github.com/garrettj403/SciencePlots` Please make sure that you installed Latex in advance, otherwise you will get an error. Alternatively, you can comment out code related to this library.
 
 ## Building a Fortran program and display results
 ### Compare observed and modeled flow velocties
