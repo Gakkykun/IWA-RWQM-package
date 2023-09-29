@@ -360,7 +360,7 @@ for i, wq in enumerate(wq_parameters):
                         width=lineWidth,  pad=tickPad, color=colour1)
         ax2.grid(color=colour1, linewidth=lineWidth, alpha=0.3)
         ax2.set_xlabel(r'Distance [m]', fontsize=fontSize, labelpad=labelPadX)
-        ax2.set_ylabel(r'Concentration [mg/L]',
+        ax2.set_ylabel(r'Concentration [$mg\:L^{-1}$]',
                        fontsize=fontSize, labelpad=labelPadY)
         ax2.set_title(wq+'-' + month_count_char)
         ax2.yaxis.set_ticks_position('both')
@@ -402,13 +402,13 @@ for i, wq in enumerate(wq_parameters):
     ax.set_xlabel(r'Time (month)', fontsize=fontSize, labelpad=labelPadX)
 
     if wq_parameters[i] == 'NOX':
-        ax.set_ylabel(r'Concentration (mg-N/L)',
+        ax.set_ylabel(r'Concentration ($mg-N\:L^{-1}$)',
                   fontsize=fontSize, labelpad=labelPadY)
     elif wq_parameters[i] == 'NH4':
-        ax.set_ylabel(r'Concentration (mg-N/L)',
+        ax.set_ylabel(r'Concentration ($mg-N\:L^{-1}$)',
                   fontsize=fontSize, labelpad=labelPadY)
     else:
-        ax.set_ylabel(r'Concentration (mg/L)',
+        ax.set_ylabel(r'Concentration ($mg\:L^{-1}$)',
                   fontsize=fontSize, labelpad=labelPadY)
 
     ax.yaxis.set_ticks_position('both')
@@ -436,35 +436,35 @@ for i, wq in enumerate(wq_parameters):
 
     # Output File Paths for Plot
     if wq == 'BOD' and data_count == 1:
-        outputFilePath = "./png/figure-3-a.png"
+        outputFilePath = "./png/figure-4-a.png"
     elif wq == 'BOD' and data_count == 2:
-        outputFilePath = "./png/figure-3-b.png"
+        outputFilePath = "./png/figure-4-b.png"
     elif wq == 'BOD' and data_count == 3:
-        outputFilePath = "./png/figure-3-c.png"
+        outputFilePath = "./png/figure-4-c.png"
     elif wq == 'NOX' and data_count == 1:
-        outputFilePath = "./png/figure-3-d.png"
+        outputFilePath = "./png/figure-4-d.png"
     elif wq == 'NOX' and data_count == 2:
-        outputFilePath = "./png/figure-3-e.png"
+        outputFilePath = "./png/figure-4-e.png"
     elif wq == 'NOX' and data_count == 3:
-        outputFilePath = "./png/figure-3-f.png"
+        outputFilePath = "./png/figure-4-f.png"
     elif wq == 'NH4' and data_count == 1:
-        outputFilePath = "./png/figure-3-g.png"
+        outputFilePath = "./png/figure-4-g.png"
     elif wq == 'NH4' and data_count == 2:
-        outputFilePath = "./png/figure-3-h.png"
+        outputFilePath = "./png/figure-4-h.png"
     elif wq == 'NH4' and data_count == 3:
-        outputFilePath = "./png/figure-3-i.png"
+        outputFilePath = "./png/figure-4-i.png"
     elif wq == 'SSolids' and data_count == 1:
-        outputFilePath = "./png/figure-3-j.png"
+        outputFilePath = "./png/figure-4-j.png"
     elif wq == 'SSolids' and data_count == 2:
-        outputFilePath = "./png/figure-3-k.png"
+        outputFilePath = "./png/figure-4-k.png"
     elif wq == 'SSolids' and data_count == 3:
-        outputFilePath = "./png/figure-3-l.png"
+        outputFilePath = "./png/figure-4-l.png"
     elif wq == 'O2' and data_count == 1:
-        outputFilePath = "./png/figure-3-m.png"
+        outputFilePath = "./png/figure-4-m.png"
     elif wq == 'O2' and data_count == 2:
-        outputFilePath = "./png/figure-3-n.png"
+        outputFilePath = "./png/figure-4-n.png"
     elif wq == 'O2' and data_count == 3:
-        outputFilePath = "./png/figure-3-o.png"
+        outputFilePath = "./png/figure-4-o.png"
 
     plt.savefig(outputFilePath)
     plt.close()
