@@ -1,6 +1,6 @@
 # IWA River Water Quality Model No.1 simulation and sensitivity and identifiability analyses
 
-This repository contains Fortran and Python programs to replicate the work presented in [Inagaki et al, (2023)](https://doi.org/10.2166/wpt.2023.166). They were tested in Ubuntu 20.04 (They would be run without issues on a Windows machine as well). If you face issues to run the code, please email me. 
+This repository contains Fortran and Python programs to replicate the work presented in [Inagaki et al, (2023)](https://doi.org/10.2166/wpt.2023.166). They were tested in Ubuntu 20.04 (They would be run without issues on a Windows machine as well). If you face issues to run the code, please email me. Please refer to this site that provides a detailed explanation about installation process in the Windows system: https://gakkykun.github.io/water-quality-modeling/water-quality-modeling/installation.html
 
 ## Usage of Python
 
